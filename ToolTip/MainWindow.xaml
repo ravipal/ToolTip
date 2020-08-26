@@ -18,7 +18,7 @@
                 <Setter Property="HorizontalAlignment" Value="Right" />
                 <Setter Property="ToolTip" Value="{Binding ElementName=adorner, Path=AdornedElement.(Validation.Errors)[0].ErrorContent.ErrorContent.Message}" />
                 <Setter Property="AutomationProperties.Name" Value="{Binding ElementName=adorner, Path=AdornedElement.(Validation.Errors)[0].ErrorContent.ErrorContent.Message}" />
-                <Setter Property="Source" Value="https://upload.wikimedia.org/wikipedia/commons/3/30/Googlelogo.png" />
+                <Setter Property="Source" Value="Images/stop.png" />
             </Style>
 
             <ControlTemplate x:Key="ComboBoxErrorTemplate">
@@ -32,7 +32,6 @@
     </Window.Resources>
     <Grid Width="250">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
